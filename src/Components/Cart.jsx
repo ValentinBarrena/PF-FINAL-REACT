@@ -44,12 +44,12 @@ export const Cart = () => {
           <>
             <h2 className="text-uppercase fw-bold">Precio Total de la compra: ${precioTotal}</h2>
             <div className="d-flex justify-content-center align-items-center" style={{ gap: "30px" }}>
-              <button onClick={limpiarCarrito} className="btn btn-success">Limpiar Carrito</button>
+              <button onClick={limpiarCarrito} className="btn btn-success" style={{margin:"20px"}}>Limpiar Carrito</button>
               <Link style={{ textDecoration: "none", color: "inherit" }} to="/">
-                <button className="btn btn-success">Volver al catálogo</button>
+                <button className="btn btn-success" style={{margin:"20px"}}>Volver al catálogo</button>
               </Link>
               <Link style={{ textDecoration: "none", color: "inherit" }} to="/checkout">
-                <button className="btn btn-success">Finalizar compra</button>
+                <button className="btn btn-success" style={{margin:"20px"}}>Finalizar compra</button>
               </Link>
             </div>
           </>
